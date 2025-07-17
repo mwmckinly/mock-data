@@ -1,50 +1,60 @@
 {
-  "name": "",
+  "name": "/",
   "path": "/",
-  "file_permissions": 755,
-  "folder_permissions": 755,
-  "directory": true,
   "length": 0,
-  "last_modified": "2025-07-15T12:00:00Z",
-  "virtual": false,
-  "icon": "folder",
+  "last_modified": "2025-07-17T12:00:00Z",
   "children": [
     {
-      "name": "README.md",
-      "path": "/README.md",
-      "file_permissions": 644,
-      "folder_permissions": 0,
-      "directory": false,
-      "length": 1487,
-      "last_modified": "2025-07-14T09:10:00Z",
-      "virtual": false,
-      "icon": "file",
-      "children": []
-    },
-    {
-      "name": "docs",
-      "path": "/docs",
-      "file_permissions": 0,
-      "folder_permissions": 755,
-      "directory": true,
+      "name": "documents",
+      "path": "/documents",
       "length": 0,
-      "last_modified": "2025-07-13T11:00:00Z",
-      "virtual": false,
-      "icon": "folder",
+      "last_modified": "2025-07-16T10:00:00Z",
       "children": [
         {
-          "name": "manual.pdf",
-          "path": "/docs/manual.pdf",
-          "file_permissions": 644,
-          "folder_permissions": 0,
-          "directory": false,
-          "length": 2304810,
-          "last_modified": "2025-07-12T14:45:00Z",
-          "virtual": false,
-          "icon": "file",
+          "name": "resume.pdf",
+          "path": "/documents/resume.pdf",
+          "length": 23456,
+          "last_modified": "2025-07-15T08:30:00Z",
           "children": []
         },
+        {
+          "name": "cover_letter.docx",
+          "path": "/documents/cover_letter.docx",
+          "length": 17654,
+          "last_modified": "2025-07-14T09:45:00Z",
+          "children": []
+        }
       ]
+    },
+    {
+      "name": "photos",
+      "path": "/photos",
+      "length": 0,
+      "last_modified": "2025-07-12T14:20:00Z",
+      "children": [
+        {
+          "name": "vacation",
+          "path": "/photos/vacation",
+          "length": 0,
+          "last_modified": "2025-07-11T17:00:00Z",
+          "children": [
+            {
+              "name": "beach.png",
+              "path": "/photos/vacation/beach.png",
+              "length": 564738,
+              "last_modified": "2025-07-10T16:30:00Z",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "todo.txt",
+      "path": "/todo.txt",
+      "length": 123,
+      "last_modified": "2025-07-13T11:00:00Z",
+      "children": []
     }
   ]
 }
